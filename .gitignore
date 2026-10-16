@@ -1,0 +1,30 @@
+# Android Studio y Gradle
+.gradle/
+.kotlin/
+.idea/
+*.iml
+local.properties
+**/build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Claves y configuración privada
+*.jks
+*.keystore
+*.p12
+*.pem
+key.properties
+signing.properties
+.env
+.env.*
+!.env.example
+
+# Archivos generados y del sistema
+*.apk
+*.aab
+*.dex
+*.log
+*.hprof
+.DS_Store
+Thumbs.db
